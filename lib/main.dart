@@ -25,8 +25,8 @@ class SecondPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                width: 250,
-                height: 250,
+                width: 200,
+                height: 200,
                 decoration: BoxDecoration(
                   color: Colors.red,
                   shape: BoxShape.circle,
@@ -43,8 +43,8 @@ class SecondPage extends StatelessWidget {
               ),
               const SizedBox(height: 40),
               Container(
-                width: 250,
-                height: 250,
+                width: 200,
+                height: 200,
                 decoration: BoxDecoration(
                   color: Colors.green,
                   shape: BoxShape.circle,

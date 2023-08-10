@@ -16,7 +16,7 @@ class SecondPage extends StatelessWidget {
           ),
         ),
         centerTitle: false,
-        elevation: 0, // Removido a sombra
+        elevation: 0,
       ),
       body: SafeArea(
         top: true,
@@ -25,8 +25,8 @@ class SecondPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                width: 200,
-                height: 200,
+                width: MediaQuery.of(context).size.width * 0.3, // 30% da largura da tela
+                height: MediaQuery.of(context).size.width * 0.3,
                 decoration: BoxDecoration(
                   color: Colors.red,
                   shape: BoxShape.circle,
@@ -43,8 +43,8 @@ class SecondPage extends StatelessWidget {
               ),
               const SizedBox(height: 40),
               Container(
-                width: 200,
-                height: 200,
+                width: MediaQuery.of(context).size.width * 0.3, // 30% da largura da tela
+                height: MediaQuery.of(context).size.width * 0.3,
                 decoration: BoxDecoration(
                   color: Colors.green,
                   shape: BoxShape.circle,

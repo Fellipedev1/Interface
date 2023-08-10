@@ -12,7 +12,7 @@ class SecondPage extends StatelessWidget {
           style: TextStyle(
             fontFamily: 'Outfit',
             color: Colors.white,
-            fontSize: 22,
+            fontSize: 21,
           ),
         ),
         centerTitle: false,

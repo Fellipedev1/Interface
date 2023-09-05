@@ -1,3 +1,3 @@
-#S Sinal Verde
+# Sinal Verde
 
 "A new Flutter project."
